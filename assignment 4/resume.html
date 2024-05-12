@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <style>
+        /* Basic styling for the body */
+        body {
+            background-color: #E8E2FF; /* Light purple background */
+            margin: 0; /* Removes default margin */
+            padding: 0; /* Removes default padding */
+            font-family: Arial, sans-serif; /* Sets a clean, readable font */
+            text-align: center; /* Centers text and inline-block elements */
+            color: #333; /* Darker text for better readability */
+        }
+
+        /* Style for the buttons */
+        .button {
+            background-color: #ffffff; /* Slightly darker purple for contrast */
+            border: none;
+            color: #E6E6FA;
+            padding: 15px 30px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            margin: 4px 2px;
+            cursor: pointer;
+            border-radius: 25px;
+            transition: background-color 0.3s; /* Smooth transition for hover effect */
+        }
+
+        .button:hover {
+            background-color: #E6E6FA; /* Even darker purple on hover for visual feedback */
+        }
+
+        /* Container to align buttons side by side */
+        .button-container {
+            margin-bottom: 20px; /* Adds space below the button container */
+            padding: 20px 0; /* Top and bottom padding */
+        }
+
+        /* Container for central content */
+        .centered-container {
+            background-color: #FFFFFF; /* White background for content */
+            width: 90%; /* Limits the content width */
+            margin: 20px auto; /* Centers the container and adds margin around it */
+            padding: 20px; /* Padding around the content */
+            border-radius: 8px; /* Rounded corners for a soft look */
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1); /* Subtle shadow for depth */
+            position: relative; /* Needed for absolute positioning of images */
+        }
+
+        img {
+            width: 100%; /* Responsive image width */
+            height: auto; /* Maintain aspect ratio */
+            max-width: 600px; /* Maximum width for large screens */
+            margin-top: 20px; /* Space above the image */
+        }
+
+        footer {
+            text-align: center;
+            padding: 20px 0;
+            margin-top: 20px;
+            background-color: #D4C8FF; /* Lighter purple for the footer */
+            color: white;
+            font-size: 0.8em;
+            border-top: 1px solid #B0A4D9; /* Subtle top border */
+        }
+    </style>
+</head>
+<body>
+    <div class="button-container">
+        <a href="index.html" class="button">Home</a>
+        <a href="contact.html" class="button">About Me</a>
+        <a href="projects.html" class="button">Projects</a>
+        <a href="resume.html" class="button">Resume</a>
+    </div>
+
+    <div class="centered-container">
+        <h1>Resume</h1>
+        <img src="resume1.png" alt="Visual representation of the first part of the resume">
+        <img src="resume2.png" alt="Visual representation of the second part of the resume">
+    </div>
+
+    <footer>
+        &copy; 2024 Shonali Sonia Kumar. All Rights Reserved. Visit my <a href="https://www.linkedin.com/in/shonalisonia/" style="color: white;">LinkedIn profile</a> for more professional updates.
+    </footer>
+</body>
+</html>
